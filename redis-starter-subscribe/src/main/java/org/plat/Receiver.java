@@ -17,6 +17,10 @@ public class Receiver {
         this.latch = latch;
     }
 
+    /**
+     * 处理消息方法
+     * @param message
+     */
     public void receiveMessage(String message) {
         try {
             logger.info("Received <" + message + ">");
