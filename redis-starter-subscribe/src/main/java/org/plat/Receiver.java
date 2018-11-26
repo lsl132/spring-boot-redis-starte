@@ -19,7 +19,7 @@ public class Receiver {
 
     /**
      * 处理消息方法
-     * @param message
+     * @param message 消息内容
      */
     public void receiveMessage(String message) {
         try {
