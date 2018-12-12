@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redis-starter-publisher" />
         <module name="redis-starter-subscribe" />
+        <module name="spring-boot-redis-type" />
       </profile>
     </annotationProcessing>
   </component>
